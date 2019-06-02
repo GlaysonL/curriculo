@@ -1,4 +1,5 @@
-h1{
+@charset "utf-8";
+/*h1{
     color:black;
 }
 
@@ -12,4 +13,77 @@ p{
 
 h3{
     color:dimgrey;
+}
+*/
+
+
+body{
+    background-image: url(fundo2.jpg);
+    background-size:contain;
+  
+
+}
+
+/*img.a{
+     float:right;
+    width: 170px;
+    height: 173px;
+    border:2px solid #F5ECCE; 
+} */
+
+
+
+h1,h2,h3{
+	font-family: Georgia;
+}
+
+h1 {
+	border-bottom: 2px solid #000000;
+	background-color: gray;
+	color: #ddd;
+	padding: 3px;	
+}
+
+h2 {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background-color: darkgrey;
+	padding-left: 5px;
+	margin: 0 0 0 -10px;
+	font-weight: normal;
+}
+
+p{
+    font-family: Snell Roundhand, cursive;
+}
+
+figure.ft-legenda{
+    float:right;
+    border: 2px solid white;
+    box-shadow: 1px 1px 4px black;
+  
+}
+
+figure.ft-legenda img{
+    object-position:right;
+    width: 170px;
+    height: 173px;
+}
+
+figure.ft-legenda figcaption{
+    opacity: 0;
+    opacity: 0;
+   position: absolute; 
+    top: 0px;
+    background-color: rgba(0,0,0,0.4);
+    color:white;
+    width: 170px;
+    height: 173px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 1s; 
+}
+
+figure.ft-legenda:hover figcaption{
+    opacity: 1;
 }
